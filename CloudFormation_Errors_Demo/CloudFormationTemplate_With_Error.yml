@@ -13,7 +13,7 @@ Resources:
     Type: 'AWS::EC2::Instance'
     Properties:
       InstanceType: t3.micro
-      ImageId: ami-0a606d8395a538502
+      ImageId: ami-065681da47fb4e433 # the Region's changed to eu-north-1
       KeyName: !Ref KeyName
       SecurityGroups:
         - !Ref InstanceSecurityGroup
